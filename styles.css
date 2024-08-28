@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 480px;
+    height: calc(480px + 120px - 96px);
+    outline-offset: 2px;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 120px;
+    font-size: 3em;
+    background-color: white;
+}
+
+#keyboard {
+    width: 480px;
+    height: calc(480px - 96px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 0;
+    width: 96px;
+    height: 96px;
+    font-size: 2em;
+    background-color: #CDDACD;
+}
+
+#equal {
+    width: calc(96px * 3);
+    background-color: rgb(57, 209, 90);
+}
+
+#clear-btn {
+    width: calc(96px * 2);
+    background-color: rgb(192, 65, 65);
+    color: white;
+}
+
+.operator {
+    background-color: rgb(59, 128, 231);
+    color: white;
+}
